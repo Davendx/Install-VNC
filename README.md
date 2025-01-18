@@ -1,7 +1,7 @@
 # Guide to Install VNC, Desktop Environment, and Google Chrome on a Linux VPS
 
 ## 1. Install Main Packages
-```
+```bash
 sudo apt install curl iptables build-essential git wget lz4 jq make gcc nano automake autoconf tmux htop nvme-cli libasound2 libgbm1 pkg-config libssl-dev libleveldb-dev tar clang bsdmainutils ncdu unzip libleveldb-dev  -y
 ```
 ## 2. Install XFCE Desktop Environment
