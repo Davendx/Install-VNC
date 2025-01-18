@@ -26,8 +26,6 @@ sudo apt install autocutsel
 ```bash
 vncserver
 ```
-![image](https://github.com/user-attachments/assets/ddf556d3-2007-41ed-b9ba-4608da837d99)
-
 * This will run a VNC screen on `:1` port
 
 **2. Stop VNC Server to config it:**
