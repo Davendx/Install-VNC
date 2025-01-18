@@ -82,4 +82,10 @@ sudo apt --fix-broken install
 google-chrome --no-sandbox
 ```
 
+### Additional Command for Chrome
+* **Pin Google Chrome to the XFCE Panel** for easier access:
+
+After installing Chrome, you might want to make it easily accessible from the XFCE desktop:
+ * Right-click on the XFCE panel, go to `Panel` > `Add New Items...`, then add "Launcher".
+ * Edit the new launcher, set the name to "Google Chrome", and the command to `/usr/bin/google-chrome-stable`.
 
