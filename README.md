@@ -16,6 +16,8 @@ sudo apt install xfce4 xfce4-goodies -y
 Install VNC Server to allow remote access to the graphical interface of your VPS:
 ```bash
 sudo apt install tightvncserver -y
+
+# Activate clipoboard in VNC
 sudo apt install autocutsel
 ```
 
