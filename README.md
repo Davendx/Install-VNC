@@ -1,4 +1,5 @@
-# Guide to Install VNC, Desktop Environment, and Google Chrome on a Linux VPS
+# Secure VNC Setup on Linux VPS with XFCE and Google Chrome
+This guide provides step-by-step instructions for setting up a secure VNC server on a Linux VPS, installing the lightweight XFCE desktop environment, and integrating Google Chrome.
 
 ## 1. Install Main Packages
 ```bash
