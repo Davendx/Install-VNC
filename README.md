@@ -31,6 +31,7 @@ vncserver -kill :1
 ```
 
 **3. Configure VNC to use XFCE and automatically open Terminal**
+
 Open the xstartup configuration file and edit it to start XFCE along with the Terminal:
 ```bash
 nano ~/.vnc/xstartup
