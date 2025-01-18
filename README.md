@@ -71,6 +71,8 @@ vncserver :1 -geometry 1920x1080 -depth 24
 
 **3. Now, you should see the desktop interface of your VPS, with the Terminal automatically opened upon login.**
 
+* To copy & paste anything in the VNC xefc terminal, you can use `shift+ctrl+c` & `shift+ctrl+v`
+
 #
 
 ### Optional. Enable ports for your VNC seasons
