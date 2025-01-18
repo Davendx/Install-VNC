@@ -1,24 +1,24 @@
 # Guide to Install VNC, Desktop Environment, and Google Chrome on a Linux VPS
 
-## Install Main Packages
+## 1. Install Main Packages
 ```
 sudo apt install curl iptables build-essential git wget lz4 jq make gcc nano automake autoconf tmux htop nvme-cli libasound2 libgbm1 pkg-config libssl-dev libleveldb-dev tar clang bsdmainutils ncdu unzip libleveldb-dev  -y
 ```
-## Install XFCE Desktop Environment
+## 2. Install XFCE Desktop Environment
 First, install the XFCE graphical user interface:
 ```
 sudo apt update
 sudo apt install xfce4 xfce4-goodies -y
 ```
 
-## Install VNC Server
+## 3. Install VNC Server
 Install VNC Server to allow remote access to the graphical interface of your VPS:
 ```
 sudo apt install tightvncserver -y
 sudo apt install autocutsel
 ```
 
-## Config VNC Server
+## 4. Config VNC Server
 **1. Start VNC Server for the first time to set up a password:**
 ```
 vncserver
@@ -52,14 +52,14 @@ autocutsel &
 chmod +x ~/.vnc/xstartup
 ```
 
-## Connect VNC from a Windows Machine
+## 5. Connect VNC from a Windows Machine
 **1. Download VNC Viewer from [RealVNC](https://www.realvnc.com/en/connect/download/viewer/) and install it on your Windows machine.**
 
 **2. Open VNC Viewer and connect to  IP_VPS:6001, then enter the VNC password when prompted.**
 
 **3. Now, you should see the desktop interface of your VPS, with the Terminal automatically opened upon login.**
 
-## Install Google Chrome on the VPS
+## 6. Install Google Chrome on the VPS
 **1. Open Terminal (if it hasn't automatically opened in the VNC session).**
 
 **2.Download Google Chrome:**
