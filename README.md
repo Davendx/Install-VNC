@@ -3,7 +3,7 @@ This guide provides step-by-step instructions for setting up a secure VNC server
 
 ## 1. Install Main Packages
 ```bash
-sudo apt install curl iptables build-essential git wget lz4 jq make gcc nano automake autoconf tmux htop nvme-cli libasound2 libgbm1 pkg-config libssl-dev libleveldb-dev tar clang bsdmainutils ncdu unzip libleveldb-dev  -y
+sudo apt install curl iptables build-essential git wget lz4 jq make gcc nano automake autoconf tmux htop nvme-cli libgbm1 pkg-config libssl-dev libleveldb-dev tar clang bsdmainutils ncdu unzip libleveldb-dev  -y
 ```
 ## 2. Install XFCE Desktop Environment
 First, install the XFCE graphical user interface:
