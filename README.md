@@ -50,7 +50,6 @@ startxfce4 &
 xfce4-terminal &
 autocutsel &
 -geometry 1920x1080 -depth 24
--rfbport 6001
 ```
 
 **4. Make the xstartup file executable:**
@@ -59,12 +58,23 @@ chmod +x ~/.vnc/xstartup
 ```
 
 ## 5. Start a VNC session
-**1. Start a VNC session on display `:1` and port `6001`**
+**1. Start a VNC session on display `:1` and port `5901`**
 ```bash
-vncserver :1 -rfbport 6001 -geometry 1920x1080 -depth 24
+vncserver :1 -geometry 1920x1080 -depth 24
 ```
+* If needed, you can run multiple sessions by entering `:2` or more
 
-**2. Enable ports for your VNC seasons**
+## 6. Connect VNC from a Windows Machine
+**1. Download VNC Viewer from [RealVNC](https://www.realvnc.com/en/connect/download/viewer/) and install it on your Windows machine.**
+
+**2. Open VNC Viewer and connect to `IP_VPS:5901` or `IP_VPS:1`, then enter the VNC password when prompted.**
+
+**3. Now, you should see the desktop interface of your VPS, with the Terminal automatically opened upon login.**
+
+#
+
+### Optional. Enable ports for your VNC seasons
+If you had problem connecting the VNC, you can try openning the ports
 
 * You might better activate your firewall for security reasons first:
 ```bash
@@ -88,12 +98,7 @@ sudo ufw allow 6002/tcp
 vncserver -kill :1
 ```
 
-## 6. Connect VNC from a Windows Machine
-**1. Download VNC Viewer from [RealVNC](https://www.realvnc.com/en/connect/download/viewer/) and install it on your Windows machine.**
-
-**2. Open VNC Viewer and connect to `IP_VPS:6001`, then enter the VNC password when prompted.**
-
-**3. Now, you should see the desktop interface of your VPS, with the Terminal automatically opened upon login.**
+#
 
 ## 7. Install Google Chrome on the VPS
 **1. Open Terminal (if it hasn't automatically opened in the VNC session).**
