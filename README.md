@@ -56,7 +56,7 @@ chmod +x ~/.vnc/xstartup
 ## 5. Connect VNC from a Windows Machine
 **1. Download VNC Viewer from [RealVNC](https://www.realvnc.com/en/connect/download/viewer/) and install it on your Windows machine.**
 
-**2. Open VNC Viewer and connect to  IP_VPS:6001, then enter the VNC password when prompted.**
+**2. Open VNC Viewer and connect to `IP_VPS:6001`, then enter the VNC password when prompted.**
 
 **3. Now, you should see the desktop interface of your VPS, with the Terminal automatically opened upon login.**
 
