@@ -84,13 +84,13 @@ sudo ufw enable
 
 * Allow VNC connections:
 ```bash
-sudo ufw allow 6001/tcp
+sudo ufw allow 5901/tcp
 ```
 
 * For multiple VNC sessions, allow each port:
 ```bash
-sudo ufw allow 6001/tcp
-sudo ufw allow 6002/tcp
+sudo ufw allow 5901/tcp
+sudo ufw allow 5902/tcp
 ```
 
 **Optional: To kill VNC sessions if needed**
