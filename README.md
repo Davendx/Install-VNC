@@ -56,6 +56,12 @@ autocutsel &
 chmod +x ~/.vnc/xstartup
 ```
 
+**5. Start a VNC server**
+```bash
+vncserver
+```
+* Now, this will run a VNC screen on `:6001` port
+
 ## 5. Connect VNC from a Windows Machine
 **1. Download VNC Viewer from [RealVNC](https://www.realvnc.com/en/connect/download/viewer/) and install it on your Windows machine.**
 
