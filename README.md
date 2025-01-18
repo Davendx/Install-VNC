@@ -81,6 +81,11 @@ sudo ufw allow 6001/tcp
 sudo ufw allow 6002/tcp
 ```
 
+**Optional: To kill VNC sessions if needed**
+```bash
+vncserver -kill :1
+```
+
 ## 6. Connect VNC from a Windows Machine
 **1. Download VNC Viewer from [RealVNC](https://www.realvnc.com/en/connect/download/viewer/) and install it on your Windows machine.**
 
