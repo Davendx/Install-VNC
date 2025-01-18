@@ -8,7 +8,7 @@ sudo apt install curl iptables build-essential git wget lz4 jq make gcc nano aut
 ## 2. Install XFCE Desktop Environment
 First, install the XFCE graphical user interface:
 ```bash
-sudo apt update
+sudo apt update && sudo apt upgrade -y
 sudo apt install xfce4 xfce4-goodies -y
 ```
 
