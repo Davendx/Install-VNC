@@ -98,7 +98,7 @@ sudo ufw allow 5902/tcp
 vncserver -kill :1
 ```
 ```bash
-vncserver :20 -geometry 1280x800 -depth 24 -localhost
+vncserver :20 -geometry 1920x1080 -depth 24 -localhost
 ```
 #
 
