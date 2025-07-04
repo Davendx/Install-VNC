@@ -97,7 +97,9 @@ sudo ufw allow 5902/tcp
 ```bash
 vncserver -kill :1
 ```
-
+```bash
+vncserver :20 -geometry 1280x800 -depth 24 -localhost
+```
 #
 
 ## 7. Install Google Chrome on the VPS
